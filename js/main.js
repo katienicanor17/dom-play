@@ -14,3 +14,23 @@ function myFunction() {
         x.className = "topnav";
     }
 } 
+
+
+const spans = document.querySelectorAll('div#play span');
+console.log(spans);
+
+for(const mySpan of spans){
+  mySpan.addEventListener('click',function(ev){
+    //alert(mySpan.dataset.actor);
+    highlightActor(mySpan.dataset.actor)
+  });
+}
+function highlightActor(actor){
+  for(const mySpan of spans){
+    if(actor == mySpan.dataset.actor){
+      mySpan.style.backgroundColor = "#3c395c";
+    }else{
+      mySpan.style.backgroundColor = "#73729a";
+    }
+  }
+ }

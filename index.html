@@ -1,31 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Title Goes Here</title>
+     <title>Dom Play</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/forms.css" />
-  <script src="js/main.js"></script>
-
+  
+  <style>
+    /*
+      div#play span{
+        background-color: yellow;
+      }
+    */
+ 
+  </style>
  </head>
  <body>
      <header>
-     <h1>Your Name Goes Here</h1>
-        <nav class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Home</a>
-            <a href="#" target="_blank">Name of Project goes here</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </nav>
+     <h1>Dom Play</h1>
      </header>
-     
    <main class="wrapper">
-       <h2 class="subheader">Title goes here</h2>
-       <p>Content goes here </p>
-       
+     <div id ="play">
+       <p>This page uses JavaScript to allow a user to click on the name of an actor and highlight their lines in a play. This page uses data-attributes and an anonymous function to loop through a nodelist and compare data-attributes to highlight or unhighlight text</p>
+       <br>
+     <h2>Avengers: Infinity War Scene</h2>
+     <p><span data-actor="peter">Peter Parker: Let me just say, if aliens wind up implanting eggs in my chest or something, and I end up eating you, I'm sorry </span></p>
+     <p><span data-actor="tony">Tony Stark: [while pointing at Peter] I don't wanna hear another single pop culture out of you for the rest of the trip. You understand?  </span></p>
+     <p><span data-actor="peter">Peter Parker: I'm trying to say that... something is coming.</span></p>
+     <p><span data-actor="drax">Drax: [yelling] THANOS!!!! </span></p>
+     <p><span data-actor="peter">Peter Parker: [crawling backwards frantically from an anxious-looking Mantis] AH! Whoa, whoa, whoa, whoa! PLEASE DON'T PUT YOUR EGGS IN ME! </span></p>
+     <p><span data-actor="quill">Peter Quill: Stay down, clown!</span></p>
+     <p><span data-actor="drax">Drax: [struggling with the Cloak of Levitation] Die ,blanket of death!</span></p>
+     <p><span data-actor="quill">Peter Quill: Alright, everybody, stay where you are... Chill the F out.[Quill powers off his helmet] I'm gonna ask you this one time. Where's Gamora?
+    </span></p>
+    <p><span data-actor="tony">Tony Stark: [de-helmeting] Yeah, I'll do you one better.Who's Gamora? </span></p>
+    <p><span data-actor="drax">Drax: I'll do you one better! Why is Gamora?! </span></p>
+    <p><span data-actor="quill">Peter Quill: Tell me where the girl is, or I swear to you, I'm gonna French-fry this little freak.</span></p>
+    <p><span data-actor="tony">Tony Stark: Let's do it! You shoot my guy, I blast him.Let's go![Tony extends his nano tech cannon,looking uncannily like an electric shark about to eat Drax's face] </span></p>
+    <p><span data-actor="drax">Drax: Do it, Quill! I can take it. </span></p>
+    <p><span data-actor="mantis">Mantis: No, he can't take it! </span></p>
+    <p><span data-actor="strange">Strange: [completely deadpan] She's right. You can't. </span></p>
+    <p><span data-actor="quill">Peter Quill: Oh yeah? You don't wanna tell me where she is? That's fine. I'll kill all three of you and beat it out of Thanos myself.[to Spidey] Starting with you.</span></p>
+    <p><span data-actor="strange">Strange: Wait, what. Thanos?[trying to inject clarity and sanity into the situation] Alright, let me ask you this one time: What master do you serve? </span></p>
+    <p><span data-actor="quill">Peter Quill: What master do I serve? What am I supposed to say? "Jesus"?</span></p>
+    <p><span data-actor="tony">Tony Stark: [getting it] You're from Earth? </span></p>
+    <p><span data-actor="quill">Peter Quill: I'm not from Earth. I'm from Missouri.</span></p>
+    <p><span data-actor="tony">Tony Stark: Yeah, that's on EARTH, dip-shit. What are you hassling us for? </span></p>
+    <p><span data-actor="peter">Peter Parker: [sounding slightly crushed] So, you're not with Thanos?</span></p>
+    <p><span data-actor="quill">Peter Quill: [indignantly] WITH Thanos?! No, I'm here to kill Thanos! He took my girl. Wait... who are you?</span></p>
+    <p><span data-actor="peter">Peter Parker: [de-helmets] We're the Avengers, man.</span></p>
+    <p><span data-actor="quill">Peter Quill: Oh. </span></p>
+    <p><span data-actor="mantis">Mantis: You're the ones Thor told us about! </span></p>
+    <p><span data-actor="tony">Tony Stark: You know Thor!?</span></p>
+    <p><span data-actor="quill">Peter Quill: Yeah. Tall guy, not that good-looking, needed saving. </span></p>
+    <p><span data-actor="strange">Strange: [pause] Where is he now? </span></p>
+
+    <p><br>[Cut to Nivadellir where Eitri is showing Thor, Rocket, and Groot the mold for Stormbreaker.]<br></p>
     
+    
+    </div>
      <footer>
       <p><small>&copy; 2021 by 
           Katie Nicanor, All Rights Reserved ~ 

@@ -3,21 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&display=swap');
 
 html {
-    background-color: white;
+    background-color: #73729a;
+    background-image: url(/images/infinity-war.jpg);
     font-family: 'Courgette', cursive;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 ::selection {
-    color: #212b05; 
+    color: #f2f3f1; 
     /*background:#b7b7a4;*/
 }
 
-h1 {
-    color: black;
+h1{
+    color: rgb(255, 254, 254);
     font-weight: normal;
     margin: auto;
     /*background: #a5a58d;*/
@@ -33,14 +34,14 @@ p {
 }
 
 h2,h3 {
-    color: black;
+    color: rgb(253, 251, 251);
     font-weight: normal;
-    margin-left: 1em;
+    margin-left: 0.8em;
     line-height: 1em;
 }
 
 a {
-    color: #030100;
+    color: #fdfcfb;
     text-decoration: none;
 }
 
